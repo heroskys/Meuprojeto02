@@ -1,0 +1,126 @@
+/*FONTES
+font-family: 'Inter', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/*BLOCO 0*/
+body{
+  margin: 0; /*MARGIN SEGNIFICA ESPAÇOS*/
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+}
+
+/*BLOCO 1*/
+.page {
+  width: 1000px; /*WIDTH SIGNIFICA LARGURA*/
+  border: 0 ; /*BORDER SIGNIFICA PREENCHIMENTOS*/
+  padding top: 65px;
+  margin: 0 auto; /*MARGIN SEGNIFICA ESPAÇOS*/
+}
+
+/*BLOCO 2*/
+nav { /*AJUSTANDO MEU HEADER*/
+display: flex; /*DISPLAY FLEX DEIXA UM ELEMENTO UM DO LADO DO OUTRO*/
+justify-content: space-between;
+align-items: center;  /*ALINHANDO A LOGO E A LISTA DA UL*/
+margin-bottom: 55px;
+}
+
+
+/*BLOCO 3*/
+ul { /*AJUSTANDO MINHA LISTA*/
+  display: flex; /*DISPLAY FLEX DEIXA UM ELEMENTO UM DO LADO DO OUTRO*/
+  list-style: none; /*TIRANDO OS PONTINHO DA MINHA LISTA*/
+  margin: 43px;
+  gap: 48px; /*DANDO ESPAÇO NOS INTENS DA MINHA LISTA*/
+  font-family: 'Mulish', sans-serif;
+}
+
+ul li a { /*TIRAR O TRACINHO ABAIXO DO NOME DAS OPÇÃO DA LISTA*/
+  text-decoration: none;
+
+}
+
+ul li a:hover{ /*QUANDO PASSAR O MOUSE EM CIMA DA PALAVRA VAI DAR UM DESTAK NA COR*/
+  font-weight: bold;
+  color: black;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+h1 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+
+}
+
+h1 span {
+  color: #89C5CC;
+
+}
+
+section p {
+
+  font-size: 14px;
+  line-height: 28px;
+  margin: 40px 0;
+}
+
+p span{
+
+  color: #7D7987;
+}
+
+button{
+  text-transform: uppercase;
+  color: white;
+  font-size: 16px;
+  line-height: 21px;
+  background-color: #69B99D;
+  border: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 14px 32px 15px;
+  gap: 10px;
+  
+  border-radius: 4px; /*BORDA ARREDONDADA*/
+}
+
+button:hover{
+  background-color: #34a07a;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+footer a {
+  color: black;
+  font-weight: bold;
+
+}
+
+footer a:hover{
+  color: blue;
+
+}
+
+#balls{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
